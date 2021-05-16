@@ -14,6 +14,6 @@ jobs:
         with:
           ruby-version: 2.6
       - name: Install ansible
-        run: apt isntall ansible
+        run: apt install ansible
       - name: Check ansible version
         run: ansible --version
